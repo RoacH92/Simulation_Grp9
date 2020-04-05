@@ -6,7 +6,7 @@ g = 9.8100; %m/s^2
 e = 0.74; %dimensionslos
 h = 22; %m
 
-%Eingabe
+%Eingabe Test
 
 while true
     alpha = inputNumber('Please type an angle between 55° and 65° [°] :');
