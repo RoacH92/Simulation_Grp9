@@ -1,0 +1,24 @@
+ProjektA.m
+
+- close all am Anfang?
+
+- g = 9.81 => g ist nicht genau 9.8100, warum also die Nullen?
+
+- while true mit break finde ich persönlich nicht ganz so schön wie die Abbruchbedingung im Schleifenkopf zu haben, komme ich aber mit klar bzw. vielleicht kannst du mir ja auch einen Vorteil nennen, den ich nicht kenne?
+
+- "a start velocity"
+
+- Bei der Berechnung der Geschwindigkeitskomponenten in x und y sind meiner Meinung nach Sinus und Cosinus vertauscht
+
+- Die Eingabe soll laut der Aufgabenstellung über ein Eingabedialogfenster, also "inputdlg" erfolgen, nicht über das Kommandofenster
+
+- Plotten der konstanten Beschleunigung ist in der Aufgabenstellung nicht gefordert, daher hatte ich es jetzt bei mir rausgelassen
+
+
+ProjectA_sim.slx
+
+- x-Koordinate ließe sich ohne Subsystem einfach mit 3 Blöcken darstellen => Falls Subsystem bestehen bleiben soll, sollten die Eingangsports noch benannt werden
+
+- Ausgabe der Konstante v_x notwendig? Wird ja nicht weiterverwendet
+
+- Multiplikation mit -e ließe sich auch mit einem einzigen Gain-Block realisieren
