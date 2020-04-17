@@ -1,8 +1,9 @@
 function num = inputNumber(prompt)
-%INPUTNUMBER Summary of this function goes here
-%   Detailed explanation goes here
+%INPUTNUMBER Funktion
+%prompt entspricht Nachricht in der Eingabeaufforderung
 while true
-    num = str2double(input(prompt,'s'));
+    num = str2double(inputdlg(prompt));
+    %Prüfung ob Eingabewert eine Zahl ist
     if ~isnan(num)
         break;
     end
