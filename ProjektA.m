@@ -12,10 +12,10 @@ h = 22; %m
 while true
     %Aufruf eigener Eingabefunktion
     alpha = inputNumber('Bitte Wurfwinkel zwischen 55° und 65° eingeben [°] :');
-    %Abbruchbedingung und Ausgabe Wert
+    %Abbruchbedingung(Wert ist im richtigen Bereich) und Ausgabe Wert
 if alpha >= 55 && alpha <= 65
     x = num2str(alpha);
-    disp(['Saved alpha[°]: ' , x]);
+    disp(['Gespeicherter Wert phi[°]: ' , x]);
 break;
 end
 %Wenn dieser Punkt erreicht wird, ist die Eingabe falsch
@@ -27,10 +27,10 @@ while true
     v_0 = inputNumber('Bitte Startgeschwindigkeit zwischen 1 und 68 [m/s] :');
 if v_0 >= 1 && v_0 <= 65
     x = num2str(v_0);
-    disp(['Saved v_0[m/s]: ' , x]);
+    disp(['Gespeicherter Wert v_0[m/s]: ' , x]);
 break;
 end
-disp('Input nicht im Bereich!');
+disp('Input nicht im vorgegebenen Bereich!');
 end
 
 disp('Inputs gültig!');
